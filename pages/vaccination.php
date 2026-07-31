@@ -127,6 +127,7 @@
                     <button type="button" onclick="submitVaccination()" class="bg-custom-teal text-white w-full py-4 rounded-lg font-bold hover-orange shadow-lg transition uppercase tracking-widest">Submit Form</button>
                 </div>
             </form>
-        </div>
+        </div> 
+        
     </section>
 
