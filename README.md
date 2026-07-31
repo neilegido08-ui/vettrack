@@ -21,7 +21,3 @@ VetTrack is a web-based veterinary management system developed for the Maasin Ci
 - XAMPP
 - Visual Studio Code
 
-## Developer
-Neil Dexter Egido
-Bachelor of Science in Information Technology (BSIT)
-The College of Maasin
