@@ -1,23 +1,23 @@
 # VetTrack Management System
 
 ## Description
-VetTrack is a web-based veterinary management system developed for the Maasin City Veterinary Office.
+VetTrack is a web-based veterinary management system developed for the Maasin City Veterinary Office. It helps manage pet records, owner information, consultations, vaccinations, treatments, and reports in one centralized system.
 
 ## Features
 - Pet Registration
-- Owner Management
-- Vaccination Records
+- Pet Owner Management
 - Consultation Records
-- Reports
+- Vaccination Records
+- Treatment History
 - Dashboard
+- Reports
 
 ## Technologies Used
 - PHP
 - MySQL
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 - XAMPP
-- Github
-
-Updated project information.
+- Visual Studio Code
+- GitHub
