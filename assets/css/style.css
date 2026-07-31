@@ -1,0 +1,44 @@
+/*
+ * VetTrack - Main Stylesheet
+ */
+
+body { font-family: 'Poppins', sans-serif; background-color: #f4f7f6; }
+.bg-custom-teal { background-color: #153e35; }
+.text-custom-teal { color: #153e35; }
+.bg-custom-orange { background-color: #f18b33; }
+.hover-orange:hover { background-color: #d6762a; }
+.section { display: none; }
+.section.active { display: block; }
+.card-hover { transition: transform 0.3s ease; }
+.card-hover:hover { transform: translateY(-5px); }
+
+.dropdown:hover .dropdown-menu { display: block; }
+.dropdown-menu { display: none; position: absolute; background-color: white; min-width: 240px; box-shadow: 0px 8px 16px rgba(0,0,0,0.1); border-radius: 8px; z-index: 100; top: 100%; }
+.dropdown-menu a { color: #333; padding: 12px 16px; display: block; font-size: 14px; border-bottom: 1px solid #f18b3311; }
+.dropdown-menu a:hover { background-color: #f4f7f6; color: #f18b33; }
+.dropdown-menu a:last-child { border-bottom: none; }
+
+.report-table-container { max-height: 500px; overflow-y: auto; border: 1px solid #e5e7eb; border-radius: 0.75rem; }
+
+#profile-dropdown.show { display: block; }
+
+.graph-view { display: none; height: 300px; width: 100%; }
+.graph-view.active { display: block; }
+
+.search-container { position: relative; }
+.search-results-dropdown {
+    position: absolute; top: 100%; left: 0; right: 0;
+    background: white; border: 1px solid #ddd; border-radius: 8px;
+    z-index: 50; max-height: 200px; overflow-y: auto; display: none;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+.search-results-dropdown.show { display: block; }
+.search-result-item { padding: 10px 15px; cursor: pointer; border-bottom: 1px solid #f1f1f1; }
+.search-result-item:hover { background-color: #f8f9fa; color: #f18b33; }
+.form-locked { opacity: 0.5; pointer-events: none; filter: grayscale(1); }
+
+.animal-chip { cursor: pointer; transition: all 0.2s; border: 2px solid transparent; }
+.animal-chip.selected { border-color: #f18b33; background-color: #fff7ed; box-shadow: 0 0 0 2px #f18b33; }
+
+.modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 1000; display: none; align-items: center; justify-content: center; padding: 20px; }
+.modal-overlay.active { display: flex; }
